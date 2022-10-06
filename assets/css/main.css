@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-hotel{
+    flex: 1 150px;   
+    padding: 2px;
+    margin: 10px; 
+}
+
+.btn-reserva{
+    width: 100%;
+}
+
+.title{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.zoom{
+-webkit-transition: all 0.35s ease-in-out;    
+-moz-transition: all 0.35s ease-in-out;    
+transition: all 0.35s ease-in-out;     
+cursor: -webkit-zoom-in;      
+cursor: -moz-zoom-in;      
+cursor: zoom-in; 
+}
+
+.zoom:hover,  
+.zoom:active,   
+.zoom:focus {
+/**adjust scale to desired size, 
+add browser prefixes**/
+-ms-transform: scale(2.5);    
+-moz-transform: scale(2.5);  
+-webkit-transform: scale(2.5);  
+-o-transform: scale(2.5);  
+transform: scale(2.5);    
+position:relative;      
+z-index:100;  
+}
+
+img{
+    cursor: pointer;
+}
+
+.color_link_footer{
+    color: rgb(177, 177, 177);
+    text-decoration: none;
+}
+
+.color_link_footer:hover{
+    color:#0dcaf0;
+}
+
+.link_nav{
+
+    color: white !important;
+}
+
+.icon{
+    list-style: none;
+    text-decoration: none;
+    font-size:2em;
+    font-weight: bold;
+    color: white;
+}
+
+.icon{
+ cursor: pointer;
+}
+
+
+.link_nav:hover{
+    padding: 6px;
+    margin-top: 2px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 2px;
+}

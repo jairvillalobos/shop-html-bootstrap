@@ -1,0 +1,26 @@
+{
+  "name": "tienda",
+  "version": "1.0.0",
+  "description": "is a proyect for practical study",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://jairvillalobos@bitbucket.org/jairvillalobos/tienda.git"
+  },
+  "author": "JUAN JAIR VILLALOBOS NUÑEZ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/jairvillalobos/tienda/issues"
+  },
+  "homepage": "https://bitbucket.org/jairvillalobos/tienda#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.2"
+  }
+}
